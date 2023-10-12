@@ -148,8 +148,8 @@ const UserDetails: React.FC = () => {
                     />
                   )}
                 </AccordionSummary>
-                <AccordionDetails>
-                  <Table style={{ wordWrap: 'break-word' }}>
+                <AccordionDetails style={{ overflow: 'auto' }}>
+                  <Table>
                     <TableHead>
                       <TableRow>
                         <TableCell>ID</TableCell>
