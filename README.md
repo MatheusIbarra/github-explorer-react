@@ -1,24 +1,61 @@
-# Getting Started with Create React App
+<p align="center">
+   <a href="https://www.typescriptlang.org">
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  </a>
+  <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="NodeJS"></a>
+  <a href="http://expressjs.com/pt-br/">
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#run-locally">Run Locally</a> •
+</p>
 
 
-### `yarn build`
+## Run locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+gh repo clone MatheusIbarra/github-explorer-react
+```
+
+Go to the project directory
+
+```bash
+cd github-exlorer-react
+```
+
+Install dependencies
+
+```bash
+yarn
+```
+
+Start the app
+
+```bash
+yarn start
+```
+
+
+
+
+<br />
+
+### Folders Structure
+
+Inside src we have these three folders:
+```
+assets
+components
+models
+pages
+routes
+services
+styles
+types
+utils
+```
+
